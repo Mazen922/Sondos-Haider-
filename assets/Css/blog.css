@@ -1,0 +1,82 @@
+/* Start Global Resets */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  --puble: #80007f;
+  --white: #fff;
+  --yellow: #ffeb14;
+  --black: #000;
+}
+/* End Global Resets */
+/* Start Body & Html  */
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #e6cce5;
+  color: var(--black);
+  position: relative;
+  font-family: "Aref Ruqaa", serif;
+  transition: all 0.5s;
+}
+/* End Body & Html */
+
+/* Start Blog  */
+.container .blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4.8rem;
+  margin: 2.4rem;
+}
+/* End Blog  */
+
+/* Start blog Content  */
+.blog .blog-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #d9b3d9;
+  padding: 0.8rem;
+  border-radius: 1.6rem;
+  margin-top: 3.2rem;
+  transition: all 0.5s;
+}
+.blog .blog-content:hover {
+  background-color: #cc99cc;
+}
+.blog .blog-content img {
+  width: 100%;
+  background-size: cover;
+  height: 50%;
+}
+.blog .blog-content p {
+  font-size: 1.6rem;
+  margin-top: -3.2rem;
+}
+
+.blog-content .btn-link {
+  display: flex;
+  text-decoration: none;
+  color: var(--white);
+  justify-content: center;
+  flex-basis: 100%;
+}
+.blog-content .btn {
+  background-color: var(--puble);
+  color: var(--white);
+  display: flex;
+  flex-basis: 80%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-radius: 0.8rem;
+}
+/* End blog Content  */
