@@ -104,13 +104,13 @@ Extra large screens, TV – 1201px, and more.
     gap: 0;
   }
   .container .work-section .image .work-img {
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     background-size: contain;
   }
   .container .blog {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 4.8rem;
     margin: 2.4rem;
   }
