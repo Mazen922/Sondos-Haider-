@@ -98,9 +98,12 @@ Extra large screens, TV – 1201px, and more.
   html {
     font-size: 4px !important;
   }
+  * {
+    font-size: 4rem !important;
+  }
   .container .work-section {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     gap: 0;
   }
   .container .work-section .image .work-img {
