@@ -136,6 +136,14 @@ Extra large screens, TV – 1201px, and more.
   .blog .blog-content p {
     padding-left: 5px;
   }
+  .nav .nav-list li a {
+    font-size: 3rem !important;
+    display: flex;
+  }
+  .nav .nav-list {
+    width: 100%;
+    gap: 0;
+  }
 }
 /* @media (min-width: 48rem) { */
 /* html {
