@@ -13,102 +13,20 @@ Small screens, laptops – 769px — 1024px.
 Desktops, large screens – 1025px — 1200px.
 Extra large screens, TV – 1201px, and more.
 */
-
-/* Small screens, laptops – 769px — 1024px. */
-
-@media (min-width: 49rem) {
-  html {
-    font-size: 9px !important;
-  }
-}
-@media (max-width: 49rem) {
-  html {
-    font-size: 8px !important;
-  }
-  /* Main Header  */
-  .header a {
-    font-size: 2rem;
-  }
-
-  /* Nav List */
-  .nav .nav-list {
-    font-size: 2rem;
-  }
-  /* Hero Section */
-  .container .hero-section {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(2, 1fr);
-    /* gap: 2.4rem; */
-  }
-  .header-container {
-    display: grid;
-    justify-self: center;
-    padding: 2rem 0 0 3rem;
-  }
-  .hero-section .header-container h2 {
-    font-size: 3rem;
-  }
-  .hero-section .main-img img {
-    width: 70%;
-  }
-  .main-heading {
-    font-size: 4rem;
-  }
-  .blog .blog-content p {
-    font-size: 1.4rem;
-    margin-top: 0;
-  }
-}
-@media (max-width: 47rem) {
-  .html {
-    font-size: 7px !important;
-  }
-  .container .hero-section {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr;
-  }
-  .hero-section .main-img img {
-    width: 30%;
-  }
-  .z-pattern .image .about-img {
-    width: 24rem;
-    height: 32rem;
-    border-radius: 1.6rem;
-    background-size: cover;
-  }
-}
-@media (max-width: 37rem) {
-  html {
-    font-size: 6px !important;
-  }
-}
-@media (max-width: 28rem) {
-  html {
-    font-size: 5px !important;
-  }
-  .container .work-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0;
-  }
-}
-@media (max-width: 24rem) {
+/* Start Mobile devices – 320px — 480px. */
+@media (max-width: 384px) {
   html {
     font-size: 4px !important;
   }
-  * {
-    font-size: 4rem !important;
-  }
+
   h2 {
     font-size: 5rem !important;
   }
   .hero-section .main-img img {
     width: 40%;
   }
-    .stick .nav {
-     padding: 8rem 2rem;
+  .stick .nav {
+    padding: 8rem 2rem;
   }
   .container .work-section {
     display: grid;
@@ -147,18 +65,91 @@ Extra large screens, TV – 1201px, and more.
     width: 100%;
     gap: 0;
   }
-}
-/* @media (min-width: 48rem) { */
-/* html {
-    font-size: 8px;
-  } */
-
-/* @media (min-width: 23rem) and (max-width: 27rem) {
-  html {
-    font-size: 6px;
+  .nav {
+    display: none;
   }
 }
-@media (min-width: 20rem) and (max-width: 23rem) {
+
+/* Small screens, laptops – 769px — 1024px. */
+@media (min-width: 784px) {
+  html {
+    font-size: 9px !important;
+  }
+  .blog .blog-content p {
+    font-size: 1rem;
+  }
 }
-@media (max-width: 20rem) {
-} */
+@media (max-width: 784px) {
+  html {
+    font-size: 8px !important;
+  }
+  /* Main Header  */
+  .header a {
+    font-size: 2rem;
+  }
+
+  /* Nav List */
+  .nav .nav-list {
+    font-size: 2rem;
+  }
+  /* Hero Section */
+  .container .hero-section {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 2.4rem; */
+  }
+  .header-container {
+    display: grid;
+    justify-self: center;
+    padding: 2rem 0 0 3rem;
+  }
+  .hero-section .header-container h2 {
+    font-size: 3rem;
+  }
+  .hero-section .main-img img {
+    width: 70%;
+  }
+  .main-heading {
+    font-size: 4rem;
+  }
+  .blog .blog-content p {
+    font-size: 1.4rem !important;
+    line-height: 1.2rem;
+    padding: 1.2rem;
+  }
+}
+@media (max-width: 752px) {
+  .html {
+    font-size: 7px !important;
+  }
+  .container .hero-section {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr;
+  }
+  .hero-section .main-img img {
+    width: 30%;
+  }
+  .z-pattern .image .about-img {
+    width: 24rem;
+    height: 32rem;
+    border-radius: 1.6rem;
+    background-size: cover;
+  }
+}
+@media (max-width: 592) {
+  html {
+    font-size: 6px !important;
+  }
+}
+@media (max-width: 448px) {
+  html {
+    font-size: 5px !important;
+  }
+  .container .work-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+}
